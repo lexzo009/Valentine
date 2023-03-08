@@ -1,0 +1,93 @@
+.Cutie {
+width: 100%;
+height: 100vh;
+background-image: url("./assets/pixel-heart.webp");
+}
+
+h1 {
+   text-align: center;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    animation: float 2500ms infinite alternate-reverse;
+    }
+
+@media (max-width: 576px) {
+    h1 {
+    font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+    font-size: 30px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .butt {
+        font-size: 15px;
+    }
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+button {
+    transition: background-color 300ms;
+    animation: float 2500ms infinite alternate-reverse;
+    border: 1px solid black;
+    font-family: 'Dancing Script', cursive, sans-serif;
+    font-size: 40px;
+    background-color: white;
+    
+}
+
+button:hover {
+    background-color: gray;
+}
+
+a:link {
+text-decoration: none;
+color: black;
+}
+a:visited {
+    text-decoration: none;
+    text-decoration-color: black;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+} 
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+.code {
+    background-image: url("./assets/pixel-heart.webp");
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.qr {
+    transition: background-color 300ms;
+    animation: float 2500ms infinite alternate-reverse;
+}
